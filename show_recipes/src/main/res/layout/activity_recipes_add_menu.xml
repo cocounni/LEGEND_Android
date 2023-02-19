@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:id="@+id/reciperoot"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:background="?attr/selectableItemBackground"
+        android:layout_weight="1"> <!--    리사이클러뷰아이템 Click animation-->
+
+
+        <LinearLayout
+            android:layout_width="125dp"
+            android:layout_height="125dp">
+            <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/menu_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00FF0000"/>
+        </LinearLayout>
+
+
+
+        <!-- **유통기한 급합/여유/고려 안함 UI 뜨게 함** -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding = "10dp"
+            >
+
+
+
+            <ImageView
+                android:id="@+id/date_red"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background= "@drawable/date_red"
+                android:visibility="invisible"
+                />
+            <ImageView
+                android:id="@+id/date_yellow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background= "@drawable/date_yellow"
+                android:visibility="invisible"
+                />
+            <ImageView
+                android:id="@+id/date_green"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background= "@drawable/date_green"
+                android:visibility="invisible"
+                />
+
+        </LinearLayout>
+
+
+
+
+        <ImageButton
+            android:id="@+id/btn_selector"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="bottom|right"
+            android:background="@drawable/btn_star" />
+        <!--****************************** -->
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="5dp">
+
+        <TextView
+            android:id="@+id/menu_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/menu_country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:drawableLeft= "@drawable/recipies_left_country"
+            android:drawablePadding="5dp"
+            />
+        <TextView
+            android:id="@+id/menu_level"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:drawableLeft= "@drawable/recipies_left_level"
+            android:drawablePadding="5dp"
+            />
+        <TextView
+            android:id="@+id/menu_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:drawableLeft= "@drawable/recipies_left_time"
+            android:drawablePadding="5dp"
+            />
+        <!--    android:drawableLeft= "@drawable/timer"-->
+        <TextView
+            android:id="@+id/menu_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:visibility="gone"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+

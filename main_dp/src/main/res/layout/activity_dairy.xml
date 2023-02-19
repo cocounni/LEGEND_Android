@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/Dairyview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:columnCount="3"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/EggButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/milk"
+                android:autoSizeTextType="uniform"
+                android:text="계란"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="#00FF0000" />
+            <Button
+                android:id="@+id/YogartButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/milk"
+                android:autoSizeTextType="uniform"
+                android:text="요거트"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="#00FF0000" />
+            <Button
+                android:id="@+id/MilkButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/milk"
+                android:autoSizeTextType="uniform"
+                android:text="우유"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="#00FF0000" />
+            <Button
+                android:id="@+id/CheeseButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/milk"
+                android:autoSizeTextType="uniform"
+                android:text="치즈"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="#00FF0000" />
+        </GridLayout>
+    </LinearLayout>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/TorefButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="내 냉장고로 가기"
+        app:icon="@android:drawable/ic_menu_revert"
+        app:layout_anchor='@id/Dairyview'
+        app:layout_anchorGravity='bottom|center' />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

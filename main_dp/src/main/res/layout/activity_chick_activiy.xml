@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/Chickview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:columnCount="3"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/ChickmeatButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/meat"
+                android:autoSizeTextType="uniform"
+                android:text="닭고기"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="#00FF0000" />
+            <Button
+                android:id="@+id/ChicklegButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/meat"
+                android:autoSizeTextType="uniform"
+                android:text="닭다리"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="#00FF0000" />
+            <Button
+                android:id="@+id/ChickfeetButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/meat"
+                android:autoSizeTextType="uniform"
+                android:text="닭발"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="#00FF0000" />
+            <Button
+                android:id="@+id/ChickbongButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/meat"
+                android:autoSizeTextType="uniform"
+                android:text="닭봉"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="#00FF0000" />
+            <Button
+                android:id="@+id/ChickanshimButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/meat"
+                android:autoSizeTextType="uniform"
+                android:text="닭안심"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="#00FF0000" />
+        </GridLayout>
+    </LinearLayout>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/TorefButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="내 냉장고로 가기"
+        app:icon="@android:drawable/ic_menu_revert"
+        app:layout_anchor='@id/Chickview'
+        app:layout_anchorGravity='bottom|center' />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

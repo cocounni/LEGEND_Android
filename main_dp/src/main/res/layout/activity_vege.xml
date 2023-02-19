@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/Vegeview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:columnCount="3"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/PotatoButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="감자"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/GogumaButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="고구마"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/GosariButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="고사리"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/GochuButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="고추"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/KimchiButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="김치"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/GgatipButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="깻잎"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/NutariButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="느타리버섯"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/CarrotButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="당근"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/DaechuButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="대추"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/DorajiButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="도라지"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/GarlicButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="마늘"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/MokiButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="목이버섯"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/MuButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="무"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/MinariButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="미나리"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/BamButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="밤"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/BangtoButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="방울토마토"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/BaechuButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="배추"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/BuchuButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="부추"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/BrocoliButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="브로콜리"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/SangchuButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="상추"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/SaesongButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="새송이버섯"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/SukjuButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="숙주"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/ShigumchiButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="시금치"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/AehobakButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="애호박"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/YungeunButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="연근"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/YangbaechuButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="양배추"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/YangsangchuButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="양상추"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/YangsongButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="양송이버섯"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/OnionButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="양파"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/CucumberButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="오이"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/OksusuButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="옥수수"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/ChunggyungButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="청경채"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/KongnamulButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="콩나물"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/TomatoButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="토마토"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/GreenonionButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="파"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/PapricaButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="파프리카"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/PangeButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="팽이버섯"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/PyogoButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="표고버섯"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/PimangButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="피망"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/HobakButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/cabbage"
+                    android:autoSizeTextType="uniform"
+                    android:text="호박"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+            </GridLayout>
+        </ScrollView>
+    </LinearLayout>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/TorefButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="내 냉장고로 가기"
+        app:icon="@android:drawable/ic_menu_revert"
+        app:layout_anchor='@id/Vegeview'
+        app:layout_anchorGravity='bottom|center' />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

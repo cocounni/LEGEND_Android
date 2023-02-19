@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/Breadview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:columnCount="3"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/GareButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/bread"
+                android:autoSizeTextType="uniform"
+                android:text="가래떡"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="#00FF0000" />
+            <Button
+                android:id="@+id/DduckgukButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/bread"
+                android:autoSizeTextType="uniform"
+                android:text="떡국떡"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="#00FF0000" />
+            <Button
+                android:id="@+id/DduckbokkiButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/bread"
+                android:autoSizeTextType="uniform"
+                android:text="떡볶이떡"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="#00FF0000" />
+            <Button
+                android:id="@+id/BaguetteButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/bread"
+                android:autoSizeTextType="uniform"
+                android:text="바게트"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="#00FF0000" />
+            <Button
+                android:id="@+id/BaegleButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/bread"
+                android:autoSizeTextType="uniform"
+                android:text="베이글"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="#00FF0000" />
+            <Button
+                android:id="@+id/ShickbbangButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/bread"
+                android:autoSizeTextType="uniform"
+                android:text="식빵"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="#00FF0000" />
+        </GridLayout>
+    </LinearLayout>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/TorefButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:icon="@android:drawable/ic_menu_revert"
+        android:text="내 냉장고로 가기"
+        app:layout_anchor='@id/Breadview'
+        app:layout_anchorGravity='bottom|center' />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/Fishview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:columnCount="3"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/GalchiButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/fish"
+                    android:autoSizeTextType="uniform"
+                    android:text="갈치"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/GapsquidButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/fish"
+                    android:autoSizeTextType="uniform"
+                    android:text="갑오징어"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/GodungButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/fish"
+                    android:autoSizeTextType="uniform"
+                    android:text="고등어"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/GwanguhButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/fish"
+                    android:autoSizeTextType="uniform"
+                    android:text="광어"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/GgolddugiButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/fish"
+                    android:autoSizeTextType="uniform"
+                    android:text="꼴뚜기"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/GgongchiButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/fish"
+                    android:autoSizeTextType="uniform"
+                    android:text="꽁치"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/NakjiButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/fish"
+                    android:autoSizeTextType="uniform"
+                    android:text="낙지"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/DaeguButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/fish"
+                    android:autoSizeTextType="uniform"
+                    android:text="대구"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/DomiButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/fish"
+                    android:autoSizeTextType="uniform"
+                    android:text="도미"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/DongtaeButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/fish"
+                    android:autoSizeTextType="uniform"
+                    android:text="동태"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/DriedsquidButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/fish"
+                    android:autoSizeTextType="uniform"
+                    android:text="마른 오징어"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/OctopusButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/fish"
+                    android:autoSizeTextType="uniform"
+                    android:text="문어"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/MaegiButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/fish"
+                    android:autoSizeTextType="uniform"
+                    android:text="메기"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/MylchiButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/fish"
+                    android:autoSizeTextType="uniform"
+                    android:text="멸치"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/BukuhButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/fish"
+                    android:autoSizeTextType="uniform"
+                    android:text="북어"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/SquidButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/fish"
+                    android:autoSizeTextType="uniform"
+                    android:text="오징어"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/BoiledoctoButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/fish"
+                    android:autoSizeTextType="uniform"
+                    android:text="삶은 문어살"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/SangtaeButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/fish"
+                    android:autoSizeTextType="uniform"
+                    android:text="생태"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/SonguhButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/fish"
+                    android:autoSizeTextType="uniform"
+                    android:text="송어"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/AguButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/fish"
+                    android:autoSizeTextType="uniform"
+                    android:text="아구"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/InguhButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/fish"
+                    android:autoSizeTextType="uniform"
+                    android:text="잉어"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/SalmonButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/fish"
+                    android:autoSizeTextType="uniform"
+                    android:text="연어"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/JanmylchiButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/fish"
+                    android:autoSizeTextType="uniform"
+                    android:text="잔멸치"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/JanguhButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/fish"
+                    android:autoSizeTextType="uniform"
+                    android:text="장어"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/JunuhButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/fish"
+                    android:autoSizeTextType="uniform"
+                    android:text="전어"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/JogiButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/fish"
+                    android:autoSizeTextType="uniform"
+                    android:text="조기"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/JjukumiButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/fish"
+                    android:autoSizeTextType="uniform"
+                    android:text="쭈꾸미"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/ChamchiButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/fish"
+                    android:autoSizeTextType="uniform"
+                    android:text="참치"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/CodariButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/fish"
+                    android:autoSizeTextType="uniform"
+                    android:text="코다리"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/HunjaesalmonButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/fish"
+                    android:autoSizeTextType="uniform"
+                    android:text="훈제연어"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+            </GridLayout>
+        </ScrollView>
+    </LinearLayout>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/TorefButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="내 냉장고로 가기"
+        app:icon="@android:drawable/ic_menu_revert"
+        app:layout_anchor='@id/Fishview'
+        app:layout_anchorGravity='bottom|center' />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

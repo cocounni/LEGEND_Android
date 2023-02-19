@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivityShow">
+
+<!-- 2차 선택 : 체크박스 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="4"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <GridLayout
+                android:id="@+id/country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:rowCount="5"
+                android:orientation="vertical"
+                >
+
+                <CheckBox
+                    android:id="@+id/korea"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="한식"
+                    android:paddingRight="5dp"
+                    />
+
+                <CheckBox
+                    android:id="@+id/china"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="중식"
+                    android:paddingRight="5dp" />
+
+                <CheckBox
+                    android:id="@+id/japan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="일식"
+                    android:paddingRight="5dp" />
+
+                <CheckBox
+                    android:id="@+id/western"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="양식"
+                    android:paddingRight="5dp" />
+
+                <CheckBox
+                    android:id="@+id/etc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="기타"
+                    android:paddingRight="5dp" />
+
+            </GridLayout>
+
+            <GridLayout
+                android:id="@+id/level"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/easy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="쉬움"
+                    android:paddingRight="5dp" />
+
+                <CheckBox
+                    android:id="@+id/normal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="보통"
+                    android:paddingRight="5dp" />
+
+                <CheckBox
+                    android:id="@+id/hard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="어려움"
+                    android:paddingRight="5dp" />
+            </GridLayout>
+
+            <GridLayout
+                android:id="@+id/time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/short_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="~30분"
+                    android:paddingRight="5dp" />
+
+                <CheckBox
+                    android:id="@+id/middle_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="30분~60분"
+                    android:paddingRight="5dp" />
+
+                <CheckBox
+                    android:id="@+id/long_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="60분~"
+                    android:paddingRight="5dp" />
+            </GridLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            >
+
+            <Button
+                android:id="@+id/rec_2_Btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#CBECF3"
+                android:text="추천 받기" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+<!--    만들 수 있는 총 레시피 개수 출력 기능-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:paddingTop="15dp"
+        android:paddingLeft="5dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/total_recipe_cnt_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="총 0개의 레시피가 검색되었습니다."
+            />
+
+    </LinearLayout>
+
+<!--만들 수 있는 음식 출력 기능 : 리사이클러뷰 -->
+    <androidx.recyclerview.widget.RecyclerView
+        app:layoutManager = "androidx.recyclerview.widget.LinearLayoutManager"
+        android:orientation="horizontal"
+        android:id="@+id/recyclerView_recipes_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"/>
+
+</LinearLayout>

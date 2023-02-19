@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/Noodleview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:columnCount="3"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/GuksuButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/noodle"
+                    android:autoSizeTextType="uniform"
+                    android:text="국수"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/NaengButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/noodle"
+                    android:autoSizeTextType="uniform"
+                    android:text="냉면"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/DangButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/noodle"
+                    android:autoSizeTextType="uniform"
+                    android:text="당면"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/RamenButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/noodle"
+                    android:autoSizeTextType="uniform"
+                    android:text="라면"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/SpaButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/noodle"
+                    android:autoSizeTextType="uniform"
+                    android:text="스파게티"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/SsalguksuButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/noodle"
+                    android:autoSizeTextType="uniform"
+                    android:text="쌀국수"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/UdongButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/noodle"
+                    android:autoSizeTextType="uniform"
+                    android:text="우동"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/JjolButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/noodle"
+                    android:autoSizeTextType="uniform"
+                    android:text="쫄면"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+                <Button
+                    android:id="@+id/KalButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/noodle"
+                    android:autoSizeTextType="uniform"
+                    android:text="칼국수"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:background="#00FF0000" />
+            </GridLayout>
+        </ScrollView>
+    </LinearLayout>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/TorefButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="내 냉장고로 가기"
+        app:icon="@android:drawable/ic_menu_revert"
+        app:layout_anchor='@id/Noodleview'
+        app:layout_anchorGravity='bottom|center' />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AndroidLab.iml" filepath="$PROJECT_DIR$/.idea/modules/AndroidLab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AndroidLab.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AndroidLab.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch19_map/AndroidLab.ch19_map.iml" filepath="$PROJECT_DIR$/.idea/modules/ch19_map/AndroidLab.ch19_map.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ch20_firebase/AndroidLab.ch20_firebase.iml" filepath="$PROJECT_DIR$/.idea/modules/ch20_firebase/AndroidLab.ch20_firebase.iml" />
+    </modules>
+  </component>
+</project>

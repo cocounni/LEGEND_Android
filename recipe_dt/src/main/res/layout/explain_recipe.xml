@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/explain_root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="1dp"
+    android:layout_margin="8dp"
+    tools:context=".RecipeActivity">
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/courseImg"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        tools:ignore="ContentDescription" />
+    <!--레시피 과정에서 이미지 있는것도 있고 없는 단계도 있음-->
+
+    <TextView
+        android:id="@+id/courseExp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="15dp"/>
+</LinearLayout>
+
+<!--    <androidx.core.widget.NestedScrollView-->
+<!--        android:layout_width="400dp"-->
+<!--        android:layout_height="1000dp"-->
+<!--        android:fillViewport="true">-->
+
+
+<!--    </androidx.core.widget.NestedScrollView>-->
+</FrameLayout>

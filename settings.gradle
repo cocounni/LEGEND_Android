@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "AndroidLab"
+include ':app'
+include ':main_dp'
+include ':home_dp'
+include ':map_dp'
+include ':show_recipes'
+include ':recipe_dt'
+include ':login_dp'

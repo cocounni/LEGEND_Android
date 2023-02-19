@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/apitest/src/main/res/layout/activity_main.xml" value="0.1470713980333476" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/bookmark/src/main/res/layout/activity_main.xml" value="0.1470713980333476" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/bookmark/src/main/res/layout/activity_main_bookmark.xml" value="0.12466001813236627" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/bookmark/src/main/res/layout/food_main.xml" value="0.1470713980333476" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/bookmark_realfinal/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/bookmark_realfinal/src/main/res/layout/bookmark_layout.xml" value="0.1351004702864472" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/bookmark_realfinal/src/main/res/layout/food_main.xml" value="0.1470713980333476" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/bookmark_realfinal/src/main/res/layout/fragment_bookmark_tab.xml" value="0.1470713980333476" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/bookmark_realfinal/src/main/res/layout/fragment_ref_tab.xml" value="0.1470713980333476" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/bookmark_realfinal/src/main/res/layout/item_main.xml" value="0.1470713980333476" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/home_dp/src/main/res/drawable-v24/btn_star.xml" value="0.1605" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/home_dp/src/main/res/drawable-v24/btn_star_bookmarktab.xml" value="0.1185" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/home_dp/src/main/res/drawable-xxxhdpi/btn_star_bookmark.xml" value="0.1185" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/home_dp/src/main/res/drawable/btn_theme.xml" value="0.1" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/home_dp/src/main/res/drawable/calbtnback.xml" value="0.1" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/home_dp/src/main/res/layout-v26/fragment_ref_tab.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/home_dp/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/home_dp/src/main/res/layout/activity_main_bookmark.xml" value="0.1470713980333476" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/home_dp/src/main/res/layout/activity_main_ref.xml" value="0.11196172248803828" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/home_dp/src/main/res/layout/calendar_activity.xml" value="0.1470713980333476" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/home_dp/src/main/res/layout/calendar_layout.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/home_dp/src/main/res/layout/food_main.xml" value="0.1470713980333476" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/home_dp/src/main/res/layout/food_main_bookmark.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/home_dp/src/main/res/layout/fragment_bookmark_tab.xml" value="0.22" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/home_dp/src/main/res/layout/fragment_ref_tab.xml" value="0.1" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/home_dp/src/main/res/layout/item_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/home_dp/src/main/res/menu/menu.xml" value="0.1470713980333476" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/login_dp/src/main/res/layout/activity_login.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/login_dp/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/login_dp/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/login_dp/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/main_dp/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/main_dp/src/main/res/layout/activity_bread.xml" value="0.22" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/main_dp/src/main/res/layout/activity_chick_activiy.xml" value="0.1" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/main_dp/src/main/res/layout/activity_clam.xml" value="0.1470713980333476" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/main_dp/src/main/res/layout/activity_claw.xml" value="0.1470713980333476" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/main_dp/src/main/res/layout/activity_cow.xml" value="0.1470713980333476" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/main_dp/src/main/res/layout/activity_crap.xml" value="0.1470713980333476" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/main_dp/src/main/res/layout/activity_dairy.xml" value="0.1470713980333476" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/main_dp/src/main/res/layout/activity_etc.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/main_dp/src/main/res/layout/activity_fish.xml" value="0.1" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/main_dp/src/main/res/layout/activity_fish_etc.xml" value="0.1470713980333476" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/main_dp/src/main/res/layout/activity_fish_mid.xml" value="0.1470713980333476" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/main_dp/src/main/res/layout/activity_fruit.xml" value="0.1" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/main_dp/src/main/res/layout/activity_grain.xml" value="0.1470713980333476" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/main_dp/src/main/res/layout/activity_haejo.xml" value="0.1470713980333476" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/main_dp/src/main/res/layout/activity_haejoryu.xml" value="0.1470713980333476" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/main_dp/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/main_dp/src/main/res/layout/activity_main_select.xml" value="0.1" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/main_dp/src/main/res/layout/activity_meat_etc.xml" value="0.1470713980333476" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/main_dp/src/main/res/layout/activity_meat_mid.xml" value="0.1470713980333476" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/main_dp/src/main/res/layout/activity_noodle.xml" value="0.1470713980333476" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/main_dp/src/main/res/layout/activity_oil.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/main_dp/src/main/res/layout/activity_pig.xml" value="0.1470713980333476" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/main_dp/src/main/res/layout/activity_pro.xml" value="0.1470713980333476" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/main_dp/src/main/res/layout/activity_sauce.xml" value="0.1470713980333476" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/main_dp/src/main/res/layout/activity_vege.xml" value="0.1" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/main_dp/src/main/res/layout/meatmidlayout.xml" value="0.1351004702864472" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/map_dp/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/map_dp/src/main/res/drawable/ic_baseline_refresh_24.xml" value="0.1" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/map_dp/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/map_dp/src/main/res/drawable/progress_bg.xml" value="0.1" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/map_dp/src/main/res/drawable/progress_image.xml" value="0.1" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/map_dp/src/main/res/drawable/round.xml" value="0.1" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/map_dp/src/main/res/drawable/round_btn.xml" value="0.1185" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/map_dp/src/main/res/layout/activity_maps.xml" value="0.1" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/map_dp/src/main/res/layout/dialog_loading.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/map_dp/src/main/res/layout/marker_layout.xml" value="0.4466666666666667" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/map_dp/src/main/res/layout/marketlayout.xml" value="0.22" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/map_dp/src/main/res/menu/menu_main.xml" value="0.1" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/markettest/src/main/res/layout/activity_main.xml" value="0.1470713980333476" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/myref/src/main/res/drawable/circlebutton.xml" value="0.1" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/myref/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/myref/src/main/res/layout/item_main.xml" value="0.1351004702864472" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/myref/src/main/res/layout/view_item_layout.xml" value="0.1351004702864472" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/recipe_dt/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/recipe_dt/src/main/res/layout/explain_recipe.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/recipe_dt/src/main/res/layout/ingre_main.xml" value="0.1" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/recipe_dt/src/main/res/layout/recip_ingre.xml" value="0.1" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/recipe_dt/src/main/res/layout/recipe_main.xml" value="0.1" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/second_select/src/main/res/layout/activity_main.xml" value="0.1470713980333476" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/show_recipes/src/main/res/drawable-xxxhdpi/btn_star.xml" value="0.1185" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/show_recipes/src/main/res/drawable-xxxhdpi/btn_star_bookmarktab.xml" value="0.1185" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/show_recipes/src/main/res/layout/activity_main_recommend.xml" value="0.1" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/show_recipes/src/main/res/layout/activity_recipes_add_menu.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/mjmj9/AndroidStudioProjects/AndroidLab/testmodule/src/main/res/layout/activity_test.xml" value="0.1470713980333476" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

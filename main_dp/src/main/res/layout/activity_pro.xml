@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/Proview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:columnCount="3"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/CrapmatsalButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/sausage"
+                android:autoSizeTextType="uniform"
+                android:text="게맛살"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="#00FF0000" />
+            <Button
+                android:id="@+id/GolbangcanButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/sausage"
+                android:autoSizeTextType="uniform"
+                android:text="골뱅이통조림"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="#00FF0000" />
+            <Button
+                android:id="@+id/FruitcanButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/sausage"
+                android:autoSizeTextType="uniform"
+                android:text="과일통조림"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="#00FF0000" />
+            <Button
+                android:id="@+id/GgongchicanButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/sausage"
+                android:autoSizeTextType="uniform"
+                android:text="꽁치통조림"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="#00FF0000" />
+            <Button
+                android:id="@+id/BaconButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/sausage"
+                android:autoSizeTextType="uniform"
+                android:text="베이컨"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="#00FF0000" />
+            <Button
+                android:id="@+id/ViennasausageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/sausage"
+                android:autoSizeTextType="uniform"
+                android:text="비엔나소시지"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="#00FF0000" />
+            <Button
+                android:id="@+id/UmukButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/sausage"
+                android:autoSizeTextType="uniform"
+                android:text="장식용어묵"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="#00FF0000" />
+            <Button
+                android:id="@+id/ChamchicanButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/sausage"
+                android:autoSizeTextType="uniform"
+                android:text="참치통조림"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="#00FF0000" />
+            <Button
+                android:id="@+id/FranksausageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/sausage"
+                android:autoSizeTextType="uniform"
+                android:text="프랑크소시지"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="#00FF0000" />
+            <Button
+                android:id="@+id/HamButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/sausage"
+                android:autoSizeTextType="uniform"
+                android:text="햄"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="#00FF0000" />
+        </GridLayout>
+    </LinearLayout>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/TorefButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="내 냉장고로 가기"
+        app:icon="@android:drawable/ic_menu_revert"
+        app:layout_anchor='@id/Proview'
+        app:layout_anchorGravity='bottom|center' />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

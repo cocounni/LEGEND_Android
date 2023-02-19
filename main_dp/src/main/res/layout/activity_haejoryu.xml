@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/Haejoview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:columnCount="3"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/GimButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/fish"
+                android:autoSizeTextType="uniform"
+                android:text="김"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="#00FF0000" />
+            <Button
+                android:id="@+id/DashimaButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/fish"
+                android:autoSizeTextType="uniform"
+                android:text="다시마"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="#00FF0000" />
+            <Button
+                android:id="@+id/SeaweedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/fish"
+                android:autoSizeTextType="uniform"
+                android:text="미역"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="#00FF0000" />
+            <Button
+                android:id="@+id/womukButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/fish"
+                android:autoSizeTextType="uniform"
+                android:text="우묵"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="#00FF0000" />
+            <Button
+                android:id="@+id/ParaeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/fish"
+                android:autoSizeTextType="uniform"
+                android:text="파래"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="#00FF0000" />
+            <Button
+                android:id="@+id/HaechoButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/fish"
+                android:autoSizeTextType="uniform"
+                android:text="해초"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:background="#00FF0000" />
+        </GridLayout>
+    </LinearLayout>
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/TorefButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="내 냉장고로 가기"
+        app:icon="@android:drawable/ic_menu_revert"
+        app:layout_anchor='@id/Haejoview'
+        app:layout_anchorGravity='bottom|center' />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

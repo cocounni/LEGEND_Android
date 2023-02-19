@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/viewmove"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="300dp"
+        android:layout_gravity="center_horizontal"
+        android:text="상세레시피 보기" />
+
+    <LinearLayout
+        android:id="@+id/menuLayout"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        tools:context=".MainActivity">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/menuImage"
+                android:scaleType = "fitXY"
+                android:layout_width="411dp"
+                android:layout_height="300dp"
+                android:alpha="0.5"/>
+
+
+            <ImageButton
+                android:id="@+id/starbutton"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="340dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/btn_star"/>
+
+            <TextView
+                android:id="@+id/menuName"
+                android:layout_marginTop="200dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:fontFamily="@font/maruburi"
+                android:textStyle="bold"
+                android:textSize="40dp"/>
+
+
+<!--            메뉴 대표사진과 함께 보여질 국가/소요시간/난이도/칼로리 text-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="255dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/country"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/maruburi"/>
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/maruburi"/>
+
+                <TextView
+                    android:id="@+id/level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/maruburi"/>
+
+                <TextView
+                    android:id="@+id/people"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/maruburi"/>
+            </LinearLayout>
+
+        </FrameLayout>
+    </LinearLayout>
+
+
+
+    <!--원래스크롤뷰위치-->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="400dp"
+        android:layout_height="750dp"
+        android:fillViewport="true">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView_ingre"
+            android:layout_width="400dp"
+            android:layout_height="800dp"
+            android:layout_marginTop="350dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:nestedScrollingEnabled="true"/>
+
+    </androidx.core.widget.NestedScrollView>
+</FrameLayout>
